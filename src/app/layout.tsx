@@ -29,6 +29,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav>
+          <span>binance</span>
+        </nav>
         <Providers>{children}</Providers>
       </body>
     </html>
